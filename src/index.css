@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .Pokedex {
+    text-align: center;
+  }
+  
+  .Pokedex-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .Pokecard {
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Pokecard-title {
+    font-size: 18px;
+  }
+  
+  .Pokecard-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Pokecard-data {
+    font-size: 14px;
+  }
+  
